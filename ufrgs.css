@@ -1,0 +1,183 @@
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #00695c;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffab00;
+}
+
+/* Seção Hero */
+.hero {
+    background: linear-gradient(135deg, #00796b, #004d40);
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.hero-content h2 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.3em;
+    margin-bottom: 40px;
+}
+
+/* Seção de Notícias */
+.news {
+    background-color: #fff;
+    padding: 50px 20px;
+}
+
+.news h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.news-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.news-item {
+    background-color: #e0f2f1;
+    padding: 20px;
+    width: 45%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.news-item:hover {
+    transform: translateY(-10px);
+}
+
+.news-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.news-item p {
+    font-size: 1.1em;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn-load-more {
+    background-color: #00695c;
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-load-more:hover {
+    background-color: #004d40;
+}
+
+/* Seção de Festas */
+.parties {
+    background-color: #fff;
+    padding: 50px 20px;
+}
+
+.parties h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.party-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.party-item {
+    background-color: #e0f2f1;
+    padding: 20px;
+    width: 45%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.party-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.party-item p {
+    font-size: 1.1em;
+}
+
+/* Rodapé */
+footer {
+    background-color: #00695c;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 

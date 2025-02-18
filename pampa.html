@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connection Pampa - Cadastro e Login</title>
+  <link rel="stylesheet" href="pampa.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <!-- Tela de Login -->
+      <div class="register-form" id="register-form" style="display: none;">
+        <h1>Connection Pampa</h1>
+        <form method="POST" action="register.php">
+            <input type="text" name="nome_completo" placeholder="Nome Completo" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <input type="password" name="senha" placeholder="Senha" required>
+            <input type="password" name="confirmar_senha" placeholder="Confirmar Senha" required>
+            <button type="submit" class="btn">Cadastrar</button>
+        </form>
+        <p><a href="" onclick="toggleForms()">Já tem uma conta? Faça login</a></p>
+    </div>
+    
+      <!-- Tela de Cadastro -->
+     
+      <div class="login-form" id="login-form">
+        <h1>Connection Pampa</h1>
+        <form method="POST" action="login.php">
+            <input type="email" name="email" placeholder="E-mail" required>
+            <input type="password" name="senha" placeholder="Senha" required>
+            <button type="submit" class="btn">Entrar</button>
+            <li><a href="teste.html">Entrar</a></li>
+        </form>
+        <p><a href="#" onclick="toggleForms()">Ainda não tem uma conta? Cadastre-se</a></p>
+    </div>
+    
+  </div>
+
+  <script>
+    function toggleForms() {
+      const loginForm = document.getElementById('login-form');
+      const registerForm = document.getElementById('register-form');
+      if (loginForm.style.display === 'none') {
+        loginForm.style.display = 'block';
+        registerForm.style.display = 'none';
+      } else {
+        loginForm.style.display = 'none';
+        registerForm.style.display = 'block';
+      }
+    }
+  </script>
+</body>
+</html>

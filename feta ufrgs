@@ -1,0 +1,21 @@
+<!-- Seção Festas -->
+    <section class="parties" id="festas">
+        <div class="container">
+            <h2>Próximos Eventos e Festas</h2>
+            <div class="party-items">
+                <div class="party-item">
+                    <h3>Festa Universitária de Boas-Vindas</h3>
+                    <p>Uma festa para recepcionar os novos alunos da UFRGS com muita música e diversão. Não perca!</p>
+                    <p><strong>Data:</strong> 20 de fevereiro, 21:00</p>
+                </div>
+                <div class="party-item">
+                    <h3>Festival de Música UFRGS</h3>
+                    <p>Venha curtir apresentações musicais de bandas locais e artistas da universidade. Um evento imperdível para quem ama música!</p>
+                    <p><strong>Data:</strong> 25 de fevereiro, 19:00</p>
+                </div>
+                <div class="party-item">
+                    <h3>Baile de Formatura - Engenharia</h3>
+                    <p>Festa de formatura para os alunos de Engenharia da UFRGS. Venha celebrar esse momento especial com os formandos!</p>
+                    <p><strong>Data:</strong> 5 de março, 22:00</p>
+                </div>
+            </div>

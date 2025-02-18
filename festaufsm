@@ -1,0 +1,26 @@
+ <!-- Seção Festas -->
+    <section class="parties" id="festas">
+        <div class="container">
+            <h2>Próximos Eventos e Festas</h2>
+            <div class="party-items">
+                <div class="party-item">
+                    <h3>Festa de Boas-Vindas da UFSM</h3>
+                    <p>Venha celebrar a chegada de novos alunos com música, comida e muita diversão!</p>
+                    <p><strong>Data:</strong> 20 de fevereiro, 22:00</p>
+                </div>
+                <div class="party-item">
+                    <h3>Festival Cultural da UFSM</h3>
+                    <p>Uma festa cultural com apresentações artísticas, musicais e muita gastronomia.</p>
+                    <p><strong>Data:</strong> 25 de fevereiro, 18:00</p>
+                </div>
+                <div class="party-item">
+                    <h3>Baile de Formatura - Medicina</h3>
+                    <p>Celebração do fim de curso para os formandos de Medicina. Não perca a grande festa de formatura!</p>
+                    <p><strong>Data:</strong> 10 de março, 21:00</p>
+                </div>
+            </div>
+            <div class="btn-container">
+                <button class="btn-load-more">Carregar Mais Festas</button>
+            </div>
+        </div>
+    </section>
